@@ -1,9 +1,8 @@
-Atividade Banco de Dados 2
+Banco de dados - Atividade 01
 
-Delegacia/ Registro 
+Sistema de controle de mesas/comandas
 
-Crimonoso: id(PK), nome, cpf, endereco
-Crime: id(PK), tipo_crime, local_crime, data_crime
-Viatura: id(PK), numero_viatura, km_inicial, km_final, hora_inicial, hora_final
-Vitima: id(PK), nome, cpf, endereco
-Arma: id(PK), arma_fogo, arma_branca, balde
+Mesas: id, quantidade_lugares, numero_mesa,
+Comanda: id, pedido(produtos), valor, id_cliente, id_mesa
+Clientes: id, nome, 
+Reserva: id, data_reversa, id_cliente
