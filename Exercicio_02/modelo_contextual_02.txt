@@ -2,11 +2,11 @@ Atividade Banco de Dados 2
 
 Delegacia/ Registro 
 
-Crimonoso: id(PK), nome, cpf, endereco
+Crimonoso: id(PK), nome, cpf, endereco, id_armas
 Policial: id(PK), nome, cpf, endereco
 Veiculo: id(PK), km_inicial, km_final, placa, renavam
 Vitima: id(PK), nome, cpf, endereco
-Crime: id(PK), doloso, culposo, material, formal, mera_conduta
-Arma: id(PK), arma_fogo, arma_branca, balde
-Ocorrencia: id(PK), id_criminoso, id_crimes, id_armas, id_vitima
+Crime: id(PK), hora, endereco, data, tipo_crime
+Arma: id(PK), arma_fogo, arma_branca
+Ocorrencia: id(PK), id_crimes
 
